@@ -1,0 +1,24 @@
+# Local migration configs with real credentials — never commit.
+# Committed templates (config*.example.py) stay tracked.
+config*.py
+!config*.example.py
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# Editors / OS
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
